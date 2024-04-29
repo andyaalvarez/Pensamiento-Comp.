@@ -1,0 +1,85 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace S9AA1323924
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            //INICIO - area donde se programa 
+
+            //int hora;
+            //hora = 25;
+
+            //Console.Write("Ingrese una hora (0 a 23):");
+            //Asi se lee un int
+            //hora = Convert.ToInt16(Console.ReadLine());
+
+            //if (hora <=11)
+            // {
+            // Console.WriteLine("Buenos Días!");
+            //}
+            //else if (hora >=12 & hora <=18)
+            //{
+            //Console.WriteLine("Buenas Tardes!");
+
+            // }
+            //else if (hora>=18 & hora <=23)
+            //{
+            // Console.WriteLine("Buenas Noches!");
+
+            // }
+
+            //string sonido;
+
+            //Console.Write("Ingrese un sonido:");
+            //sonido = Console.ReadLine(); 
+
+            //switch (sonido)
+            // {
+            // case "muu":
+            //Console.WriteLine("vaca");
+            //  break;
+            // case "guau":
+            // Console.WriteLine("perro");
+            //break;
+            // case "quack":
+            //Console.WriteLine("pato");
+            // break;
+            // case "miau":
+            // Console.WriteLine("gato");
+            // break;
+            //default:
+            // Console.WriteLine("Sonido desconocido");
+            // break;
+            //}
+
+            string caracter;
+            int largo;
+
+            Console.Write("Ingrese las letras:");
+            caracter = Console.ReadLine();
+            Console.Write("Ingrese el nùmero");
+            largo = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("");
+
+            for (int i=1; i <= largo; i ++)
+            { 
+                for (int j=1; j<= largo; j ++)
+                {
+                    Console.Write(caracter);
+                }
+                Console.WriteLine("");
+            }
+
+
+            //siempre se pone al final
+            Console.ReadKey();
+            //FIN -area donde se programa 
+        }
+    }
+}
